@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="GOREstTestSuite" parallel="tests" thread-count="3">
+	<listeners>
+		<listener class-name="com.qa.listeners.ExtentReportListener" />
+		<listener class-name="com.qa.listeners.TestAllureListener" />
+	</listeners>
+	<test name="GO Rest regresstion test" parallel="classes"
+		thread-count="3">
+		<classes>
+			<class name="com.qa.gorest.tests.CreateUserAPITest" />
+			<class name="com.qa.gorest.tests.DeleteuserAPItest" />
+			<class name="com.qa.gorest.tests.GetuserAPItest" />
+			<class name="com.qa.gorest.tests.UpdateUserAPItest" />
+
+
+		</classes>
+	</test>
+</suite> 

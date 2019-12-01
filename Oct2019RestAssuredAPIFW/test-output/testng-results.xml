@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="13" passed="13">
+  <reporter-output>
+  </reporter-output>
+  <suite name="GOREstTestSuite" duration-ms="13315" started-at="2019-10-26T00:41:32Z" finished-at="2019-10-26T00:41:46Z">
+    <groups>
+    </groups>
+    <test name="GO Rest regresstion test" duration-ms="13315" started-at="2019-10-26T00:41:32Z" finished-at="2019-10-26T00:41:46Z">
+      <class name="com.qa.gorest.tests.CreateUserAPITest">
+        <test-method status="PASS" signature="createuserlistAPItest()[pri:0, instance:com.qa.gorest.tests.CreateUserAPITest@351d00c0]" name="createuserlistAPItest" duration-ms="3454" started-at="2019-10-26T06:11:32Z" finished-at="2019-10-26T06:11:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserlistAPItest -->
+        <test-method status="PASS" signature="createuserlistAPItestusingDataprovider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserAPITest@351d00c0]" name="createuserlistAPItestusingDataprovider" duration-ms="1116" started-at="2019-10-26T06:11:38Z" data-provider="getuserdata" finished-at="2019-10-26T06:11:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rohan]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[02-Feb-1989]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rosharm2@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.1829102123E10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.rohansharma.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[delhi]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserlistAPItestusingDataprovider -->
+        <test-method status="PASS" signature="createuserlistAPItestusingDataprovider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserAPITest@351d00c0]" name="createuserlistAPItestusingDataprovider" duration-ms="1113" started-at="2019-10-26T06:11:39Z" data-provider="getuserdata" finished-at="2019-10-26T06:11:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rajesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[verma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[02-Feb-1991]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rajeshverma@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.1829102145E10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.rajeshverma.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[haryana]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserlistAPItestusingDataprovider -->
+        <test-method status="PASS" signature="createuserlistAPItestusingDataprovider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserAPITest@351d00c0]" name="createuserlistAPItestusingDataprovider" duration-ms="1084" started-at="2019-10-26T06:11:40Z" data-provider="getuserdata" finished-at="2019-10-26T06:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[shikhar]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dhawan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[02-Feb-1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[shikhardha@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.1829102143E10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.shikdhawa.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserlistAPItestusingDataprovider -->
+        <test-method status="PASS" signature="createuserlistAPItestusingDataprovider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserAPITest@351d00c0]" name="createuserlistAPItestusingDataprovider" duration-ms="1123" started-at="2019-10-26T06:11:41Z" data-provider="getuserdata" finished-at="2019-10-26T06:11:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ajinkya]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rahane]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[03-Feb-1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ajinkraha@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.1829102144E10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.shikdhawa.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserlistAPItestusingDataprovider -->
+        <test-method status="PASS" signature="createuserlistAPItestusingDataprovider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserAPITest@351d00c0]" name="createuserlistAPItestusingDataprovider" duration-ms="1071" started-at="2019-10-26T06:11:42Z" data-provider="getuserdata" finished-at="2019-10-26T06:11:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ravindra]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[jadeja]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[04-Feb-1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[ravindrajade@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.1829102145E10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.shikdhawa.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserlistAPItestusingDataprovider -->
+        <test-method status="PASS" signature="createuserlistAPItestusingDataprovider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserAPITest@351d00c0]" name="createuserlistAPItestusingDataprovider" duration-ms="1095" started-at="2019-10-26T06:11:44Z" data-provider="getuserdata" finished-at="2019-10-26T06:11:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[rishabh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pant]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[05-Feb-1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[rishabhpant@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.1829102146E10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.shikdhawa.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserlistAPItestusingDataprovider -->
+        <test-method status="PASS" signature="createuserlistAPItestusingDataprovider(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.qa.gorest.tests.CreateUserAPITest@351d00c0]" name="createuserlistAPItestusingDataprovider" duration-ms="1087" started-at="2019-10-26T06:11:45Z" data-provider="getuserdata" finished-at="2019-10-26T06:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[umesh]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[yadav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[male]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[06-Feb-1992]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[umeshyadav@gmail.com]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[9.1829102147E10]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[http://www.shikdhawa.com]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[mumbai]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[active]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createuserlistAPItestusingDataprovider -->
+      </class> <!-- com.qa.gorest.tests.CreateUserAPITest -->
+      <class name="com.qa.gorest.tests.UpdateUserAPItest">
+        <test-method status="PASS" signature="updateuserlistAPItest()[pri:0, instance:com.qa.gorest.tests.UpdateUserAPItest@18078bef]" name="updateuserlistAPItest" duration-ms="2654" started-at="2019-10-26T06:11:37Z" finished-at="2019-10-26T06:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateuserlistAPItest -->
+        <test-method status="PASS" signature="updateuserlistAPItest_withsetter()[pri:0, instance:com.qa.gorest.tests.UpdateUserAPItest@18078bef]" name="updateuserlistAPItest_withsetter" duration-ms="2198" started-at="2019-10-26T06:11:40Z" finished-at="2019-10-26T06:11:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateuserlistAPItest_withsetter -->
+      </class> <!-- com.qa.gorest.tests.UpdateUserAPItest -->
+      <class name="com.qa.gorest.tests.DeleteuserAPItest">
+        <test-method status="PASS" signature="deleteuserlistAPItest()[pri:0, instance:com.qa.gorest.tests.DeleteuserAPItest@35d019a3]" name="deleteuserlistAPItest" duration-ms="5630" started-at="2019-10-26T06:11:32Z" finished-at="2019-10-26T06:11:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuserlistAPItest -->
+        <test-method status="PASS" signature="deleteuserlistAPItest_usingsetter()[pri:0, instance:com.qa.gorest.tests.DeleteuserAPItest@35d019a3]" name="deleteuserlistAPItest_usingsetter" duration-ms="2300" started-at="2019-10-26T06:11:38Z" finished-at="2019-10-26T06:11:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteuserlistAPItest_usingsetter -->
+      </class> <!-- com.qa.gorest.tests.DeleteuserAPItest -->
+      <class name="com.qa.gorest.tests.GetuserAPItest">
+        <test-method status="PASS" signature="getuserlistAPItest()[pri:0, instance:com.qa.gorest.tests.GetuserAPItest@689604d9]" name="getuserlistAPItest" duration-ms="4471" started-at="2019-10-26T06:11:32Z" finished-at="2019-10-26T06:11:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getuserlistAPItest -->
+      </class> <!-- com.qa.gorest.tests.GetuserAPItest -->
+    </test> <!-- GO Rest regresstion test -->
+  </suite> <!-- GOREstTestSuite -->
+</testng-results>

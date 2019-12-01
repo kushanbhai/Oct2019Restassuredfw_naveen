@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [GOREstTestSuite]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.listeners.ExtentReportListener"/>
+    <listener class-name="com.qa.listeners.TestAllureListener"/>
+  </listeners>
+  <test name="GO Rest regresstion test(failed)" parallel="classes">
+    <classes>
+      <class name="com.qa.gorest.tests.UpdateUserAPItest">
+        <methods>
+          <include name="updateuserlistAPItest"/>
+          <include name="updateuserlistAPItest_withsetter"/>
+        </methods>
+      </class> <!-- com.qa.gorest.tests.UpdateUserAPItest -->
+    </classes>
+  </test> <!-- GO Rest regresstion test(failed) -->
+</suite> <!-- Failed suite [GOREstTestSuite] -->

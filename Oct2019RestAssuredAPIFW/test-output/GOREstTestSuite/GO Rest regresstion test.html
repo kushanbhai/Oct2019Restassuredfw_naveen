@@ -1,0 +1,144 @@
+<html>
+<head>
+<title>TestNG:  GO Rest regresstion test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>GO Rest regresstion test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>13/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sat Oct 26 06:11:32 IST 2019</td>
+</tr>
+<tr><td>Total time:</td><td>13 seconds (13315 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createuserlistAPItest()'><b>createuserlistAPItest</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest</td>
+<td></td>
+<td>3</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createuserlistAPItestusingDataprovider()'><b>createuserlistAPItestusingDataprovider</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: rohan, sharma, male, 02-Feb-1989, rosharm2@gmail.com, 9.1829102123E10, http://www.rohansharma.com, delhi, active</td>
+<td></td>
+<td>1</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createuserlistAPItestusingDataprovider()'><b>createuserlistAPItestusingDataprovider</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: rajesh, verma, male, 02-Feb-1991, rajeshverma@gmail.com, 9.1829102145E10, http://www.rajeshverma.com, haryana, active</td>
+<td></td>
+<td>1</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createuserlistAPItestusingDataprovider()'><b>createuserlistAPItestusingDataprovider</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: shikhar, dhawan, male, 02-Feb-1992, shikhardha@gmail.com, 9.1829102143E10, http://www.shikdhawa.com, mumbai, active</td>
+<td></td>
+<td>1</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createuserlistAPItestusingDataprovider()'><b>createuserlistAPItestusingDataprovider</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: ajinkya, rahane, male, 03-Feb-1992, ajinkraha@gmail.com, 9.1829102144E10, http://www.shikdhawa.com, mumbai, active</td>
+<td></td>
+<td>1</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createuserlistAPItestusingDataprovider()'><b>createuserlistAPItestusingDataprovider</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: ravindra, jadeja, male, 04-Feb-1992, ravindrajade@gmail.com, 9.1829102145E10, http://www.shikdhawa.com, mumbai, active</td>
+<td></td>
+<td>1</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createuserlistAPItestusingDataprovider()'><b>createuserlistAPItestusingDataprovider</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: rishabh, pant, male, 05-Feb-1992, rishabhpant@gmail.com, 9.1829102146E10, http://www.shikdhawa.com, mumbai, active</td>
+<td></td>
+<td>1</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.CreateUserAPITest.createuserlistAPItestusingDataprovider()'><b>createuserlistAPItestusingDataprovider</b><br>Test class: com.qa.gorest.tests.CreateUserAPITest<br>Parameters: umesh, yadav, male, 06-Feb-1992, umeshyadav@gmail.com, 9.1829102147E10, http://www.shikdhawa.com, mumbai, active</td>
+<td></td>
+<td>1</td>
+<td>com.qa.gorest.tests.CreateUserAPITest@351d00c0</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.DeleteuserAPItest.deleteuserlistAPItest()'><b>deleteuserlistAPItest</b><br>Test class: com.qa.gorest.tests.DeleteuserAPItest</td>
+<td></td>
+<td>5</td>
+<td>com.qa.gorest.tests.DeleteuserAPItest@35d019a3</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.DeleteuserAPItest.deleteuserlistAPItest_usingsetter()'><b>deleteuserlistAPItest_usingsetter</b><br>Test class: com.qa.gorest.tests.DeleteuserAPItest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.gorest.tests.DeleteuserAPItest@35d019a3</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.GetuserAPItest.getuserlistAPItest()'><b>getuserlistAPItest</b><br>Test class: com.qa.gorest.tests.GetuserAPItest</td>
+<td></td>
+<td>4</td>
+<td>com.qa.gorest.tests.GetuserAPItest@689604d9</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.UpdateUserAPItest.updateuserlistAPItest()'><b>updateuserlistAPItest</b><br>Test class: com.qa.gorest.tests.UpdateUserAPItest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.gorest.tests.UpdateUserAPItest@18078bef</td></tr>
+<tr>
+<td title='com.qa.gorest.tests.UpdateUserAPItest.updateuserlistAPItest_withsetter()'><b>updateuserlistAPItest_withsetter</b><br>Test class: com.qa.gorest.tests.UpdateUserAPItest</td>
+<td></td>
+<td>2</td>
+<td>com.qa.gorest.tests.UpdateUserAPItest@18078bef</td></tr>
+</table><p>
+</body>
+</html>
